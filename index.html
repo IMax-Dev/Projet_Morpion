@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Morpion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <table>
+        <tr>
+            <td id="A1" ></td>
+            <td id="A2" ></td>
+            <td id="A3" ></td>
+        </tr>
+
+        <tr>
+            <td id="B1" ></td>
+            <td id="B2" ></td>
+            <td id="B3" ></td>
+        </tr>
+
+        <tr>
+            <td id="C1" ></td>
+            <td id="C2" ></td>
+            <td id="C3" ></td>
+        </tr>
+
+    </table>
+</div>
+
+<html>
+
+<div id="refresh" > Voulez vous rejouer ? </div> <br>
+
+<button onclick="location.reload() "> Relancer</button>
+
+<script>
+
+    function relancer() {
+
+        document.getElementById("refresh").innerHTML = " Vous pouvez jouer ! ";
+    }
+</script>
+</html>
+</body>
+</html>

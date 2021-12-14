@@ -1,0 +1,26 @@
+td{
+   width: 100px;
+    height: 100px;
+    color: black;
+    background: white;
+    margin: 0 auto;
+    border-color: black;
+
+}
+
+
+table{
+background-color: black;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background: deepskyblue;
+}
+
+.
